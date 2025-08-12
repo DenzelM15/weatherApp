@@ -1,4 +1,4 @@
-const apiKey = '0842a87a1d09385df5c3fe4a0921da3b'; // Replace with your OpenWeatherMap API key
+const apiKey = '0842a87a1d09385df5c3fe4a0921da3b'; 
 
 const searchBtn = document.getElementById('searchBtn');
 const cityInput = document.getElementById('cityInput');
@@ -84,3 +84,4 @@ function displayForecast(data) {
     forecastDisplay.innerHTML += html;
   });
 }
+
